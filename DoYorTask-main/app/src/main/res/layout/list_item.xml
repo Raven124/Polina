@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mydrawable"
+    android:radius="20dp"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/NameDelo"
+        style="@style/text_view_style"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mydrawable"
+        android:gravity="center_horizontal"
+        android:radius="20dp"
+        tools:text="placeholder text" />
+
+    <LinearLayout
+        android:id="@+id/DateLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/StartDelo"
+            style="@style/text_view_style1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            tools:text="placeholder text" />
+
+        <TextView
+            android:id="@+id/FinishDelo"
+            style="@style/text_view_style1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            tools:text="placeholder text" />
+    </LinearLayout>
+
+    <RatingBar
+        android:id="@+id/RatingDelo"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_gravity="top|fill_vertical|end"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="126dp"
+        android:isIndicator="true"
+        android:numStars="5" />
+
+</LinearLayout>
