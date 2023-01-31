@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Пленер задач</string>
+    <string name="NameDelo">TextView</string>
+    <string name="FinishDelo">TextView</string>
+    <string name="StartDelo">TextView</string>
+    <string name="textview">Сортировка :</string>
+    <string name="setting">ThisSetting</string>
+    <string name="edit">ThisEdit</string>
+    <string-array name="Sortby">
+        <item>Нет сортировки</item>
+        <item>По имени</item>
+        <item>По рейтингу</item>
+        <item>По стартовой дате</item>
+    </string-array>
+    <string name="button_save">Save</string>
+    <string name="hint_word">Name...</string>
+    <string name="empty_not_saved">Yor work not saved because it is empty.</string>
+</resources>
